@@ -1,0 +1,108 @@
+:root{
+    --primaryColor:#2A5776;
+}
+
+
+iframe{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(15, 15, 15);
+}
+table{
+    max-width: 10px;
+    position:absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 20;
+}
+
+.fContainer{
+    position: fixed;
+    width: 100%;
+    outline: 2px solid white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--primaryColor) ;
+
+
+    & .bumnLogo span{
+        color: white;
+        font-weight: 400;
+    }
+
+    & .bumnLogo{
+        display: flex;
+        align-items: center;
+    }
+
+    & .bumnLogo img{
+        width: 140px;
+    }  
+
+    & .plnLogo img{
+        width: 50px;
+    }
+
+
+
+}
+
+#table1{
+    & th{
+        text-align: center !important;
+    }
+
+    & th, td {
+        font-size: 12px;
+        outline: 1px solid black;
+        padding: 4px;
+    }
+    & th {
+        background-color: rgb(80, 225, 225);
+        color: rgb(0, 0, 0);
+    }
+    & tr {
+        background-color: #ffffff;}
+}
+
+#table_dua{    
+
+    position: absolute !important;
+    top: 240px;
+    z-index: 999;
+
+    & th{
+        text-align: center !important;
+    }
+
+    & th, td {
+        font-size: 12px;
+        outline: 1px solid black;
+    }
+    & th {
+        background-color: rgb(80, 225, 225);
+        color: rgb(0, 0, 0);
+    }
+    & tr {
+        background-color: #ffffff;} 
+}
+.marker-name {
+    text-align: center;
+    margin-top: 6px;
+}
+
+.marker-tooltip {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 12px;
+    color: black;
+    width: 150px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto;
+    text-align: center;
+}
+
+
+
+

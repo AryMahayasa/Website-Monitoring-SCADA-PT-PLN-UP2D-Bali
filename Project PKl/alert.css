@@ -1,0 +1,217 @@
+:root {
+    --info-color: blue;
+    --warning-color: yellow;
+    --danger-color: red;
+    --success-color: green;
+    --primaryColor: #2A5776;
+}
+
+/* Gaya Alert */
+.alert {
+    border: none;
+}
+
+.alert .close {
+    font-size: 18px;
+    padding: 12px 15px;
+}
+
+.jq-icon-info {
+    background-color: var(--info-color);
+    color: white;
+    border: none;
+}
+
+.jq-icon-warning {
+    background-color: var(--warning-color);
+    color: white;
+}
+
+.jq-icon-error {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.jq-icon-success {
+    color: white;
+    background-color: var(--success-color);
+}
+
+.jq-toast-single,
+.jq-toast-single h2 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Gaya Tombol */
+.btn {
+    padding: 6px 14px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.btn i {
+    margin-right: 5px;
+}
+
+.btn-icon {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-icon i {
+    margin-right: 0 !important;
+}
+
+.social-btn {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: white; /* Ganti $white dengan white */
+}
+
+.social-btn i {
+    margin: 0;
+}
+
+/* Gaya Tombol Warna */
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger,
+.btn-inverse,
+.btn-purple,
+.btn-pink,
+.btn-twitter,
+.btn-facebook,
+.btn-linkedin,
+.btn-google,
+.btn-dribbble,
+.btn-instagram {
+    color: white; /* Ganti $white dengan white */
+}
+
+.btn-primary {
+    background-color: var(--primaryColor); /* Ganti $primary dengan var(--primaryColor) */
+    border: 1px solid var(--primaryColor); /* Ganti $primary dengan var(--primaryColor) */
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.active {
+    background-color: darken(var(--primaryColor), 5%); /* Gunakan Sass darken() jika Anda menggunakan Sass */
+    border: 1px solid darken(var(--primaryColor), 5%); /* Gunakan Sass darken() jika Anda menggunakan Sass */
+    color: white !important; /* Ganti $white dengan white */
+}
+
+/* Sisanya sesuaikan seperti yang Anda butuhkan */
+
+/* Peta */
+iframe {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(15, 15, 15);
+}
+
+/* Gaya Template Demo */
+.template-demo .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-group .btn {
+    margin: 0;
+}
+
+table {
+    max-width: 10px;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 20;
+}
+
+.fContainer {
+    position: fixed;
+    width: 100%;
+    outline: 2px solid white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primaryColor);
+}
+
+.fContainer .bumnLogo span {
+    color: white;
+    font-weight: 400;
+}
+
+.fContainer .bumnLogo {
+    display: flex;
+    align-items: center;
+}
+
+.fContainer .bumnLogo img {
+    width: 140px;
+}
+
+.fContainer .plnLogo img {
+    width: 50px;
+}
+
+#table1 th {
+    text-align: center !important;
+}
+
+#table1 th,
+#table1 td {
+    font-size: 12px;
+    outline: 1px solid black;
+    padding: 4px;
+}
+
+#table1 th {
+    background-color: rgb(80, 225, 225);
+    color: rgb(0, 0, 0);
+}
+
+#table1 tr {
+    background-color: #ffffff;
+}
+
+#table_dua {
+    position: absolute !important;
+    top: 240px;
+    z-index: 999;
+}
+
+#table_dua th {
+    text-align: center !important;
+}
+
+#table_dua th,
+#table_dua td {
+    font-size: 12px;
+    outline: 1px solid black;
+}
+
+#table_dua th {
+    background-color: rgb(80, 225, 225);
+    color: rgb(0, 0, 0);
+}
+
+#table_dua tr {
+    background-color: #ffffff;
+}
